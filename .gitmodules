@@ -1,0 +1,3 @@
+[submodule "libs/Code39"]
+	path = libs/Code39
+	url = https://github.com/jkrrv/Code39.git
