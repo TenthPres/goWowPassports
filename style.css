@@ -1,0 +1,68 @@
+body {
+    margin-left: -.1in;
+}
+
+div.passportPage {
+    height:2.3333333in;
+    width:3.375in;
+    border: solid white;
+    overflow:hidden;
+    display: inline-block;
+    position:relative;
+    padding-left:0.325in;
+    margin-bottom:0.084in;
+}
+
+img.passportPhoto {
+    width:1.3in;
+}
+
+td {
+    padding:0;
+}
+
+img.barcode {
+    width:3in;
+    top:0.1in;
+    left:0.1875in;
+    position:relative;
+}
+
+.passportLabel {
+    text-align: center;
+    font-family: "Whitney Light";
+    font-size: .13in;
+}
+
+.tenthLogo {
+    z-index: -10;
+    position:absolute;
+    right:0;
+    top:-.18in;
+    height:2in;
+    opacity: 0.3;
+}
+
+tr:first-child {
+    width:1.2in;
+}
+
+.infoTable tr:nth-child(even) {
+    font-weight: bold;
+    font-family: "Consolas";
+    font-size: .15in;
+}
+
+.infoTable tr:nth-child(odd) {
+    font-family: "Whitney Light";
+    font-size: .09in;
+}
+
+
+.wowLabel {
+    /*text-transform: uppercase;*/
+    font-family: "Whitney Black";
+    font-variant: small-caps;
+    text-align:center;
+    font-size:.27in;
+}
